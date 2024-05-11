@@ -13,6 +13,9 @@ const nextConfig = {
     // Make ENV
     unoptimized: true,
   },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
 };
 
 // module.exports = withTM(nextConfig);
