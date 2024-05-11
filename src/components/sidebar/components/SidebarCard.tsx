@@ -56,7 +56,7 @@ export default function SidebarDocs() {
           px="10px"
           mb="14px"
         >
-          Upgrade to PRO
+          Have some doubts?
         </Text>
         <Text
           fontSize="14px"
@@ -65,11 +65,10 @@ export default function SidebarDocs() {
           mb="14px"
           textAlign="center"
         >
-          Improve your development process and start doing more with Horizon UI
-          PRO!
+          Contact our customer success team before starting your project!
         </Text>
       </Flex>
-      <Link href="https://horizon-ui.com/pro">
+      <Link href="#">
         <Button
           bg="whiteAlpha.300"
           _hover={{ bg: 'whiteAlpha.200' }}

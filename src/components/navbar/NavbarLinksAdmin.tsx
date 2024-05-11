@@ -163,7 +163,7 @@ export default function HeaderLinks(props: {
         </MenuList>
       </Menu>
 
-      <Menu>
+      {/* <Menu>
         <MenuButton p="0px">
           <Icon
             mt="6px"
@@ -187,7 +187,7 @@ export default function HeaderLinks(props: {
         >
           <Image src={navImage.src} borderRadius="16px" mb="28px" alt="" />
           <Flex flexDirection="column">
-            <Link w="100%" href="https://horizon-ui.com/pro">
+            <Link w="100%" href="#">
               <Button w="100%" h="44px" mb="10px" variant="brand">
                 Buy Horizon UI PRO
               </Button>
@@ -223,7 +223,7 @@ export default function HeaderLinks(props: {
             </Link>
           </Flex>
         </MenuList>
-      </Menu>
+      </Menu> */}
 
       <Button
         variant="no-hover"
