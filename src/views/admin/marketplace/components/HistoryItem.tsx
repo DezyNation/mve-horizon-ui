@@ -38,15 +38,16 @@ export default function NFT(props: {
       transition="0.2s linear"
     >
       <Flex direction={{ base: 'column' }} justify="center">
-        <Flex position="relative" align="center">
+        <Flex position="relative" align="center" gap={4}>
           <Box>
             <Image
               alt=""
               src={image.src}
-              w="66px"
-              h="66px"
-              borderRadius="20px"
+              w="120px"
+              h="56px"
+              borderRadius="12px"
               me="16px"
+              objectFit={'cover'}
             />
           </Box>
           <Flex
@@ -76,21 +77,7 @@ export default function NFT(props: {
               {author}
             </Text>
           </Flex>
-          <Flex
-            w="max-content"
-            me={{ base: '4px', md: '32px', xl: '10px', '3xl': '32px' }}
-            align="center"
-          >
-            <Icon as={FaEthereum} color={textColor} width="9px" me="7px" />
-            <Text
-              w="max-content"
-              fontWeight="700"
-              fontSize="md"
-              color={textColor}
-            >
-              {price}
-            </Text>
-          </Flex>
+          
           <Text ms="auto" fontWeight="700" fontSize="sm" color={textColorDate}>
             {date}
           </Text>

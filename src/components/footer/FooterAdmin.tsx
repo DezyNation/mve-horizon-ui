@@ -37,16 +37,7 @@ export default function Footer() {
         {' '}
         &copy; {new Date().getFullYear()}
         <Text as="span" fontWeight="500" ms="4px">
-          Horizon UI. All Rights Reserved. Made with love by
-          <Link
-            mx="3px"
-            color={textColor}
-            href="https://www.simmmple.com"
-            target="_blank"
-            fontWeight="700"
-          >
-            Simmmple!
-          </Link>
+          Music Video Editor
         </Text>
       </Text>
       <List display="flex">
@@ -59,7 +50,7 @@ export default function Footer() {
           <Link
             fontWeight="500"
             color={textColor}
-            href="mailto:hello@simmmple.com"
+            href="#"
           >
             Support
           </Link>
@@ -73,7 +64,7 @@ export default function Footer() {
           <Link
             fontWeight="500"
             color={textColor}
-            href="https://www.simmmple.com/licenses"
+            href="#"
           >
             License
           </Link>
@@ -87,7 +78,7 @@ export default function Footer() {
           <Link
             fontWeight="500"
             color={textColor}
-            href="https://simmmple.com/terms-of-service"
+            href="#"
           >
             Terms of Use
           </Link>
@@ -96,7 +87,7 @@ export default function Footer() {
           <Link
             fontWeight="500"
             color={textColor}
-            href="https://www.blog.simmmple.com/"
+            href="#"
           >
             Blog
           </Link>
