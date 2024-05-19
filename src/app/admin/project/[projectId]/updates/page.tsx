@@ -15,7 +15,7 @@ import VideoFrame from 'components/video/VideoFrame';
 import React, { useState } from 'react';
 import { MdReply } from 'react-icons/md';
 
-const page = ({ params }: any) => {
+const ProjectUpdates = ({ params }: any) => {
   const { projectId } = params;
   const textColor = useColorModeValue('navy.700', 'white');
   const [intent, setIntent] = useState('');
@@ -252,4 +252,4 @@ const page = ({ params }: any) => {
   );
 };
 
-export default page;
+export default ProjectUpdates;
